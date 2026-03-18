@@ -1,0 +1,37 @@
+body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* SUMMARY CARDS */
+.summary-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    font-size: 18px;
+}
+
+/* RIDE CARD */
+.ride-card {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.ride-card:hover {
+    transform: translateY(-5px);
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 8px;
+}
+
+/* SEARCH */
+#search {
+    border-radius: 10px;
+    padding: 10px;
+}

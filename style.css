@@ -1,0 +1,32 @@
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('p4.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+/* BOOKING BOX */
+.booking-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* NAVBAR BRAND */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* BUTTON HOVER */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* FEATURE SECTION */
+h2 {
+    font-weight: bold;
+}

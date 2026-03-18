@@ -1,0 +1,37 @@
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+/* HERO */
+.support-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('images/support.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+}
+
+/* SUPPORT CARDS */
+.support-card {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.support-card:hover {
+    transform: translateY(-5px);
+}
+
+/* FORM CARD */
+.card {
+    border-radius: 15px;
+}
+
+/* BUTTON */
+.btn-primary {
+    border-radius: 10px;
+}

@@ -1,0 +1,92 @@
+/* BODY */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+}
+
+/* NAVBAR BRAND */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* CARD (FORM) */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* INPUT FIELDS */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13,110,253,0.3);
+}
+
+/* SELECT BOX */
+select.form-control {
+    cursor: pointer;
+}
+
+/* BUTTONS */
+.btn-primary {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0b5ed7;
+    transform: scale(1.03);
+}
+
+.btn-secondary {
+    border-radius: 10px;
+}
+
+/* MAP */
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FARE TEXT */
+#fare {
+    font-size: 18px;
+    color: #198754;
+}
+
+/* STATUS MESSAGE */
+#status {
+    font-weight: bold;
+    color: green;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #map {
+        height: 300px;
+        margin-top: 20px;
+    }
+}

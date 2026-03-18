@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Rides - GoFast</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="myrides.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">🚗 GoFast</a>
+
+<ul class="navbar-nav me-auto">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link active" href="myrides.html">My Rides</a></li>
+<li class="nav-item"><a class="nav-link" href="book.html">Book Ride</a></li>
+</ul>
+</div>
+</nav>
+
+<div class="container mt-4">
+
+<!-- SUMMARY -->
+<div class="row text-center mb-4">
+<div class="col-md-4">
+<div class="summary-card">🚗 Total Rides <br><b>12</b></div>
+</div>
+<div class="col-md-4">
+<div class="summary-card">💰 Total Spent <br><b>₹4500</b></div>
+</div>
+<div class="col-md-4">
+<div class="summary-card">⭐ Favorite Ride <br><b>Sedan</b></div>
+</div>
+</div>
+
+<!-- SEARCH -->
+<input type="text" id="search" placeholder="🔍 Search rides..." class="form-control mb-4" onkeyup="searchRides()">
+
+<!-- RIDES LIST -->
+<div id="rides">
+
+<!-- CARD -->
+<div class="card ride-card">
+<div class="card-body">
+<h5>Hyderabad → Guntur</h5>
+<p>💰 ₹350 | 🚘 Sedan</p>
+<p>📅 17 Mar 2026</p>
+
+<span class="badge bg-success">Completed</span>
+
+<div class="mt-2">
+<button class="btn btn-success btn-sm" onclick="rebook()">Rebook</button>
+<button class="btn btn-outline-primary btn-sm">View Map</button>
+</div>
+
+</div>
+</div>
+
+<div class="card ride-card">
+<div class="card-body">
+<h5>Vijayawada → Tenali</h5>
+<p>💰 ₹150 | 🚘 Mini</p>
+<p>📅 15 Mar 2026</p>
+
+<span class="badge bg-danger">Cancelled</span>
+
+<div class="mt-2">
+<button class="btn btn-success btn-sm" onclick="rebook()">Rebook</button>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<p id="empty" class="text-center mt-4" style="display:none;">
+No rides found 🚫
+</p>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+© 2026 GoFast Ride Booking
+</footer>
+
+<script src="myrides.js"></script>
+
+</body>
+</html>

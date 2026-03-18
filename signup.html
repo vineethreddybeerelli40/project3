@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+<body>
+
+    <div class="signup-card">
+        <h2>Sign Up</h2>
+        
+        <div class="input-group">
+            <input id="user" placeholder="Username">
+        </div>
+        
+        <div class="input-group">
+            <input id="pass" type="password" placeholder="Password">
+        </div>
+        
+        <button onclick="signup()">Create Account</button>
+        
+        <p class="footer-text">Already have an account? <a href="#">Login</a></p>
+    </div>
+
+    <script>
+    function signup() {
+        const userVal = document.getElementById("user").value;
+        const passVal = document.getElementById("pass").value;
+
+        if(userVal && passVal) {
+            localStorage.setItem("user", userVal);
+            localStorage.setItem("pass", passVal);
+            alert("Signup Successful!");
+        } else {
+            alert("Please fill in both fields");
+        }
+    }
+    </script>
+
+</body>
+</html>

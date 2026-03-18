@@ -1,0 +1,84 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* The "Card" container */
+.signup-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column; /* This stacks children vertically */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #1c1e21;
+    font-size: 24px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px; /* Vertical spacing between inputs */
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f5f6f7;
+    outline: none;
+}
+
+input:focus {
+    border-color: #1877f2;
+    background-color: white;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2; /* Blue like Facebook/LinkedIn */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #606770;
+}
+
+.footer-text a {
+    color: #1877f2;
+    text-decoration: none;
+}

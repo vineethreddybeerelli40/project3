@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ✅ External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>GoFast Ride Booking</title>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">🚗 GoFast</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="book.html">Book Ride</a></li>
+        <li class="nav-item"><a class="nav-link" href="myrides.html">My Rides</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+      </ul>
+
+     <div class="d-flex">
+  <a href="login.html" class="btn btn-outline-light me-2">Login</a>
+  <a href="signup.html" class="btn btn-success">Sign Up</a>
+</div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Book Your Ride Instantly</h1>
+    <p>Fast, Safe and Affordable rides</p>
+
+    <div class="container booking-box shadow">
+        <div class="row g-2">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Pickup Location">
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Drop Location">
+            </div>
+            
+            <div class="col-md-2">
+                <button class="btn btn-primary w-100">Book</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CAROUSEL -->
+<div id="carouselExampleSlidesOnly" class="carousel slide mt-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="p1.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="p2.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="p3.jpg" class="d-block w-100">
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<div class="container text-center mt-5">
+    <h2>Why Choose GoFast?</h2>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <h4>🚀 Fast Booking</h4>
+            <p>Book rides instantly.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>🔒 Safe</h4>
+            <p>Verified drivers.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>💰 Affordable</h4>
+            <p>Best pricing.</p>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+    © 2026 GoFast
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
